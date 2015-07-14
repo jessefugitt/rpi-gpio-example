@@ -1,0 +1,13 @@
+Expects wiringPi to have already been built and installed.  See: 
+http://wiringpi.com/download-and-install/
+
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+
+
+After wiringPi, use the standard cmake steps to build the gpio-app:
+mkdir build
+cmake ..
+make
+
